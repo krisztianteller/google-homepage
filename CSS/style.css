@@ -1,0 +1,22 @@
+.googlelogo{
+    position: fixed;
+    top: 35%;
+    left: 42%;
+}
+
+.Search{
+    position: fixed;
+    top: 48%;
+    left: 40%;
+    
+}
+
+.Search input{
+    width:  340px;
+}
+
+.buttons{
+    position: fixed;
+    top: 53%;
+    left: 45%;
+}
