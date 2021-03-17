@@ -1,4 +1,4 @@
-body{
+html body{
     margin: 0;
 }
 #nav{
@@ -43,10 +43,44 @@ body{
 
 .buttons{
     text-align: center;
-    /*position: fixed;
-    top: 53%;
-    left: 45%;*/
+    font-size: 25px;
+    
 }
-.footer{
-    background-color: gray;
+button{
+    background-color: lightgrey;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+button:hover{
+   
+}
+
+
+
+.links{
+    
+    margin-top: 10px;
+    text-align: center;
+}
+footer{
+    margin-top: 15%;
+    background-color: lightgray;
+    padding:  1%;
+    
+    
+}
+a {
+    color: grey;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.country{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
 }
