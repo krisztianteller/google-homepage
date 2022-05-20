@@ -1,0 +1,54 @@
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.googlelogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 5px;
+    line-break: after;
+}
+input[type=text] {
+    height: 20px;
+    border: 2px solid #e6e6e6;
+    border-radius: 12px;
+    width: 30%;
+    }
+#line-break{
+    width: 100%;
+}
+ 
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    color: gray;
+    text-align: center;
+ }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.item9 {
+    flex-basis: 910px;
+}
